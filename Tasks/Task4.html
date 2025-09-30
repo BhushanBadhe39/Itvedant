@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4</title>
+</head>
+<body>
+    <h1>Event Registration form</h1>
+
+    <form style="border: 1px solid black;">
+        Personal Details<br>
+        <label for="">Full Name: </label><input type="text"><br><br>
+        <label for="">Email: </label><input type="email"><br><br>
+        <label for="">Phone: </label><input type="number"><br><br>
+    </form>
+    <br>
+    <form style="border: 1px solid black;">
+        Event Preferences<br>
+        <label for="">Event Date: </label><input type="date"><br><br>
+        <label for="">Choose Session: </label><input type="text" list="Session">
+        <datalist id="Session">
+            <option value="Morning"></option>
+            <option value="Afternoon"></option>
+            <option value="Evening"></option>
+        </datalist><br><br>
+        <label for="">Attendance Type: </label><br><input type="radio" name="Attendance">Online<input type="radio" name="Attendance">Offline<br><br>
+        <label for="">Topics of Interest: </label><br>
+        <input type="checkbox" name="Topic">HTML
+        <input type="checkbox" name="Topic">CSS
+        <input type="checkbox" name="Topic">JavaScript
+        <br><br>
+        <label for="">Additional Notes: </label>
+        <br>
+        <textarea name="" id=""></textarea><br><br>
+        
+    </form>
+    <br><br>
+    <button>Register</button>
+
+</body>
+</html>
