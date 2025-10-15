@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Day 4.1</title>
+    <style>
+        .box{
+            width: 150px;
+            height: 150px;
+            background-color: lime;
+            border: 1px solid black;
+            color: white;
+            margin: 20px;
+        }
+        #box1{
+            position: static;
+        }
+        #box2{
+            position: relative;
+            top: 50px;
+            left: 180px;
+            z-index: 3;
+        }
+        #box3{
+            position: absolute;
+            top: 10px;
+            left: 500px;
+        }
+        #box4{
+            position: fixed;
+            left: 160px;
+        }
+
+        nav{
+            border: 1px solid black;
+            background-color: transparent;
+            color: white;
+            padding: 10px;
+            box-shadow: 5px 5px 5px gray, -5px -5px 5px gray, 5px -5px 5px gray, -5px 5px 5px gray;
+        }
+        header{
+            position: sticky;
+            top: 0;
+            z-index: 5;
+        }
+        footer{
+            position: sticky;
+            bottom: 0;
+            z-index: 5;
+        }
+
+        body{
+            background-color: crimson;
+            background-image: url(../images/1289768.jpg);
+            
+            background-repeat: repeat-x;
+            background-repeat: repeat-y;
+            background-repeat: no-repeat;
+            background-position: left;
+            background-position: right;
+            background-position: center;
+            background-size: contain;
+            background-size: cover;
+        }
+
+    </style>
+</head>
+<body>
+    
+
+    <div class="box" id="box1">box1</div>
+    <div class="box" id="box2">box2</div>
+    <header>
+        <nav>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque fuga atque, impedit enim omnis voluptate?</nav>
+    </header>
+    <div class="box" id="box3">box3</div>
+    <div class="box" id="box4">box4</div>
+
+
+    <div class="box" id="box2">box2</div>
+    <div class="box" id="box2">box2</div>
+    <div class="box" id="box2">box2</div>
+    <div class="box" id="box2">box2</div>
+    <div class="box" id="box2">box2</div>
+    <div class="box" id="box2">box2</div>
+    <div class="box" id="box2">box2</div>
+    <div class="box" id="box2">box2</div>
+    <div class="box" id="box2">box2</div>
+    <div class="box" id="box2">box2</div>
+
+
+    <footer>
+        <nav>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque fuga atque, impedit enim omnis voluptate?</nav>
+    </footer>
+</body>
+</html>

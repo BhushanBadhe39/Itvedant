@@ -1,0 +1,19 @@
+.div1{
+    background: linear-gradient(0deg, white 0%, pink 40%,orchid 60%);
+    margin: 40px;
+}
+.div2{
+    background: linear-gradient(90deg, white 0%, pink 40%,orchid 60%);
+    margin: 40px;
+}
+.div3{
+    background: linear-gradient(180deg, white 0%, pink 40%,orchid 60%);
+    margin: 40px;
+}
+.div4{
+    background: linear-gradient(270deg, white 0%, pink 40%,orchid 60%);
+    margin: 40px;
+}
+body{
+    background-color: black;
+}

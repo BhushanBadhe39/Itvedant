@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Day 9</title>
+    <style>
+        p::first-letter{
+            font-size: 30px;
+            color: red;
+        }
+        div::first-line{
+            color: blue;
+        }
+        section::selection{
+            background-color: aqua;
+        }
+        article::after{
+            content: "✔️"
+        }
+        article::before{
+            content: "❌";
+        }
+    </style>
+</head>
+<body>
+    
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In, inventore?</p>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit vitae dignissimos voluptate in molestias labore quibusdam aperiam eligendi? Facilis ratione perspiciatis omnis fugit doloribus delectus dolorum dolorem quisquam. Provident, libero?
+    </div>
+    <section>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo cumque ea rerum eveniet quos, ut possimus officia nisi explicabo blanditiis!
+    </section>
+    <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dicta, impedit hic facere maiores non! Pariatur esse dolorum nihil odit veritatis molestias mollitia est illum.</article>
+    <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis optio accusantium ullam. Quam corrupti provident deserunt repellat voluptates, laboriosam excepturi dolores natus quis, cupiditate veniam!</article>
+</body>
+</html>

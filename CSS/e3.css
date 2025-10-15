@@ -1,0 +1,25 @@
+.box{
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    margin: 10px;
+    background-color: violet;
+    display: block;
+    display: inline;
+    display: inline-block;
+}
+
+span{
+    background-color: violet;
+    display: block;
+    display: inline;
+    display: inline-block;
+}
+
+img{
+    width: 300px;
+    float: left;
+    float: right;
+    float: inline-start;
+    float: inline-end;
+}

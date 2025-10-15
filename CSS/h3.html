@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS DAY 8-2</title>
+    <style>
+        a:link{
+            color: tomato;
+        }
+        a:hover{
+            color: blueviolet;
+        }
+        a:visited{
+            color: aqua;
+        }
+        a:active{
+            color: red;
+        }
+        button:hover{
+            background-color: yellowgreen;
+            border: 1px solid green;
+            border-radius: 10px;
+        }
+        ul li:first-child:hover{
+            background-color: lavenderblush;
+        }
+        ul li:last-child:hover{
+            background-color: goldenrod;
+        }
+        ul li:nth-child(2):hover{
+            background-color: red;
+        }
+        ul li:nth-child(odd):hover{
+            background-color: rebeccapurple;
+        }
+
+        input:disabled{
+            outline: 1px solid skyblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>psuedoclasses</h1>
+
+    <a href="https://google.compiler">Google</a>
+    <button>CLick Me</button>
+
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ul>
+    
+    <input type="text" disabled><br><br><br><input type="text"><br><br><br><input type="checkbox">
+</body>
+</html>

@@ -1,0 +1,54 @@
+h2{
+    color: green;
+}
+  /* Descendant selector (space) */
+div p{        
+    color: yellowgreen;
+}
+
+
+/* Child Selector (>) */
+div > p{
+    color: steelblue;
+}
+
+/* General Sibling Selector (~) */
+article ~ div{
+    color: rosybrown;
+}
+
+/* Adjacent Sibling Selector(+) */
+p+li{
+    color: orangered;
+}
+
+/* Pure Attribute Selector  */
+
+input[title]{
+    border: 1px solid red;
+}
+
+
+/* Exact Match Attribute Selector */
+
+input[type="password"]{
+    color: red;
+}
+
+/* Starts with  */
+
+a[href^="https"]{
+    color: rebeccapurple;
+}
+
+/* Ends With  */
+
+a[href$=".pdf"]{
+    color: chocolate;
+}
+
+/* Contains */
+
+a[href*="itvedant"]{
+    color: chartreuse;
+}

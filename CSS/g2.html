@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS DAY 7-1</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: 200px 300px 400px;
+            gap: 10px;
+        }
+
+        .container>div{
+            background-color: yellowgreen;
+            padding: 20px;
+        }
+        .container2{
+            display: grid;
+            grid-template-columns: 1fr 2fr 3fr;
+            grid-template-rows: 200px 150px 100px 50px 25px;
+            gap: 10px;
+        }
+
+        .container2>div{
+            background-color: yellowgreen;
+            padding: 20px;
+        }
+
+        h2{
+            text-align: left    ;
+        }
+    </style>
+</head>
+<body>
+    <h2>Q1. Select One Answer</h2>
+    <div class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
+    <h2>Q2. Select One Answer</h2>
+    <div class="container2">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>6</div>
+        <div>6</div>
+        <div>6</div>
+        <div>6</div>
+        <div>6</div>
+    </div>
+</body>
+</html>
