@@ -16,3 +16,9 @@ console.log(a>b)
 console.log(a<=b)
 console.log(a>=b)
 console.log(a==b)
+
+
+let num1=100;
+let num2 = '100';
+console.log(num1==num2);
+console.log(num1===num2);
