@@ -26,6 +26,12 @@
     person.mobile = [1234,7498600952];
     person.address = {city:"Pune",state: "Maharashtra"};
     console.log(person);
+
+    person.sayHello = function (){      // WE CAN ALSO USE A FUNCTION AS A VALUE
+        console.log("Hello World");
+    }
+    person.sayHello();
+    console.log(person);            // BUT THE FUNCTION WON'T RUN THROUGH THIS UNLESS CALLED SPECIFICALLY LIKE ABOVE
     
 
 
