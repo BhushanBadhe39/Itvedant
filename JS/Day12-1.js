@@ -50,11 +50,19 @@ console.log("\n\n\n\n\n\n\n\n\n\n");
     console.log(student['age']);
     
     // iii. For in Loop
-
     for (const key in person) {
         console.log(key);
         console.log(person[key]);
     }
+
+    // iv. 'this' keyword         ---> refers current object
+    const student2 = {
+        name:"Bhushan",clg:"SPPU",greet:function (){
+            console.log("hello",this.name);
+            
+        }
+    }
+    student2.greet();
 
 
 //                        Built-in Methods/Commands for objects                        //
