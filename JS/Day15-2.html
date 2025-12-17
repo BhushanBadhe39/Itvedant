@@ -18,32 +18,18 @@
 
         <label>Date of Birth: </label>
         <input type="date" id="dob"><br><br>
-        <label>Resume: </label>
-        <input type="file" id="resume"><br><br>
 
-        <label>Sports: </label>
-        <input type="text" list="sports" id="sport">
-        <datalist id="sports">
-            <option value="Cricket"></option>
-            <option value="Football"></option>
-            <option value="Hockey"></option>
-        </datalist><br><br>
+        <button onclick="formFunc(event)" type="submit">Submit</button>
 
-        <label>Technology</label>
-        <select name="Technology" title="Technology" id="tech">
-        <option value="HTML">HTML</option>
-        <option>CSS</option>
-        <option>JavaScript</option>
-        <option>Java</option>
-        </select><br><br>
-        <label>About: </label><br>
-        <textarea cols="20" rows="5" id="about"></textarea><br><br>
-
-        <button onclick="displayForm()" type="button">Click Me</button>
-        <input type="submit" value="Submit">
-        <input type="reset" value="Reset">
 
         <script src="Day15-2.js"></script>
     </form>
+    <table id="data-table" border="1">
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>DOB</th>
+        </tr>
+    </table>
 </body>
 </html>
